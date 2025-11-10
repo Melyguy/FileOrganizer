@@ -7,7 +7,9 @@ class Program
     {
         Console.WriteLine("Enter the folder path to organize:");
         string? folderPath = Console.ReadLine();
+        folderPath = folderPath?.Trim().Trim('"');
 
+        Console.WriteLine($"Checking: [{folderPath}]");
         if (string.IsNullOrWhiteSpace(folderPath) || !Directory.Exists(folderPath))
         {
             Console.WriteLine("Invalid folder path");
