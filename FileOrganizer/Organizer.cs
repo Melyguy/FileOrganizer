@@ -10,11 +10,12 @@ public static class FileOrganizer
         { ".mp4", "Videos" }, { ".mov", "Videos" },
         { ".pdf", "Documents" }, { ".docx", "Documents" }, { ".txt", "Documents" },
         { ".zip", "Archives" }, { ".rar", "Archives" },
-        { ".exe", "Software" }, { ".msi", "Software" }, {".pptx","Presentation" }, 
+        { ".exe", "Software" }, {".pptx","Presentation" }, 
         {".xlsx","Spreadsheet" }, {".mp3","Audio" }, {".wav","Audio" }, {".html","WebFiles" }, 
         {".css","WebFiles" }, {".js","WebFiles" }, {".c","CodeFiles" }, {".cpp","CodeFiles" }, 
         {".cs","CodeFiles" }, {".java","CodeFiles" }, {".py","CodeFiles" }, {".rb","CodeFiles" }, 
-        {".blend","3DModels" }, {".obj","3DModels" }, {".fbx","3DModels" }, {".glb","3DModels" }
+        {".blend","3DModels" }, {".obj","3DModels" }, {".fbx","3DModels" }, {".glb","3DModels" }, {".gltf","3DModels" },{".blend1", "3DModels"},
+        { ".msi", "Installations" }, {".dmg", "Installations" }, {".iso", "Installations"  }
     };
     public static void Organize(string folderPath)
     {
