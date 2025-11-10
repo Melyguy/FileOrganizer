@@ -1,7 +1,7 @@
 # 🗂️ File Organizer (.NET C#)
 
 A simple and powerful **File Organizer** built in **.NET C#** that automatically sorts your files into folders based on their type (images, documents, videos, etc.).  
-You can either **run it once** to clean up a directory or **enable watch mode** to organize files automatically as they appear.
+
 
 ---
 
