@@ -22,6 +22,3 @@ You can either **run it once** to clean up a directory or **enable watch mode** 
 - C#
 - `System.IO`
 
----
-   git clone https://github.com/yourusername/FileOrganizer.git
-   cd FileOrganizer
