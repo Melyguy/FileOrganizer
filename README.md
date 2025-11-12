@@ -10,8 +10,7 @@ A simple and powerful **File Organizer** built in **.NET C#** that automatically
 ✅ Automatically sorts files into categorized folders  
 ✅ Detects file types by extension  
 ✅ Prevents overwriting duplicates  
-✅ Supports manual folder selection (typed path)  
-✅ Optional real-time folder watching  
+✅ Supports manual folder selection (typed path)
 ✅ Lightweight — no external dependencies  
 
 ---
